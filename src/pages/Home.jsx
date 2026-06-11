@@ -3,7 +3,7 @@ import homeGif from '../assets/Racoon.avif'
 import { useNavigate } from 'react-router-dom'
 
 function Home() {
-  const navigate = useNavigate
+  const navigate = useNavigate()
   return (
     <div className={styles.home}>
       <h1>Home</h1>
